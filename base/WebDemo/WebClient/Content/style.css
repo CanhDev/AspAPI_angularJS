@@ -1,0 +1,110 @@
+﻿
+.btn, .navbar, .form-control {
+    border-radius: 0;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.navbar-fixed-top {
+    background-color: #005E9C;
+    color: white !important;
+}
+
+.navbar-right {
+    padding-right: 15px;
+}
+
+.menu_detail {
+    position: relative;
+    top: 50px;
+}
+
+    .menu_detail:after {
+        clear: both;
+    }
+
+.navbar-default .navbar-nav > li > a {
+    color: #005e9c;
+}
+
+.list-content {
+    max-height: 50px;
+    overflow: auto;
+}
+
+.nav > li > a {
+    padding: 15px 12px !important;
+}
+
+.nav-tabs > li > a {
+    border-radius: 0;
+}
+
+.main_list {
+    margin-top: 50px;
+    padding: 2px;
+}
+
+.search_in_list {
+    padding-bottom: 2px;
+}
+
+.red {
+    color: #dd5a43 !important;
+}
+
+.fa-lg {
+    font-size: 1.2em;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-footer {
+    background-color: #e2ecf9;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+    color: #005e9c;
+}
+
+.frmadditem {
+    max-height: calc(100vh - 280px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table td, .table th {
+    min-width: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.form-horizontal .form-group{
+    margin: 0 0 10px 0;
+}
+
+.lavender{
+    background-color: lavender;
+}
+
+.elipsis{
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

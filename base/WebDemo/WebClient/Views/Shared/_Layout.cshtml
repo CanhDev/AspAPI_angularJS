@@ -1,0 +1,416 @@
+﻿<html ng-app="crudForm">
+<head>
+    <!-- Bootstrap 3 CSS -->
+    <title>v2 - đầy đủ</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="~/Content_canhnv/bootstrap.min.css" rel="stylesheet" />
+    @Styles.Render("~/Content_canhnv/css")
+</head>
+<body ng-controller="crudCtrl">
+    <!-- Header -->@RenderBody()
+    <div class="header">
+        <img src="~/Content/images/logo_menu.png" width="120" alt="">
+    </div>
+
+    <!-- Search Bar -->
+    <div class="row search-bar">
+        <div class="col-xs-6">
+            <h4>Danh sách bảng giá</h4>
+        </div>
+        <div class="col-xs-6 text-right">
+            <div class="action-icons">
+                <button ng-click="refresh()" class="btn">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+                <button ng-click="openModal('add','parent')" class="btn">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button ng-disabled="!isAnySelectedRow_banggia" ng-click="handleEdit()" class="btn">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button ng-click="handleDelete_bangGiaItem('', 1)"
+                        ng-disabled="!isAnySelectedRow_banggia" class="btn">
+                    <i class="fas fa-trash-alt text-danger"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input Search -->
+    <div class="input-group">
+        <input ng-keypress="handleSearch($event, searchInput)"
+               ng-model="searchInput"
+               type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm">
+        <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button" ng-click="toggleFilter()">
+                <i class="fas" ng-class="filterVisible ? 'fa-chevron-up' : 'fa-chevron-down'"></i>
+            </button>
+            <button ng-click="handleSearch('', searchInput)"
+                    class="btn btn-primary" type="button">
+                <i class="fas fa-search"></i>
+            </button>
+        </span>
+    </div>
+    <div class="filter-section collapsible" ng-class="{'expanded': filterVisible}">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label class="form-label" for="loaiBan">Loại bán</label>
+                <select ng-model="saleType_search"
+                        class="form-select" id="loaiBan">
+                    <option ng-repeat="item in saleTypes" ng-value="{{item.value}}">{{item.key}}</option>
+                </select>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label class="form-label" for="loaiBangGia">Loại bảng giá</label>
+                <select ng-model="priceType_search"
+                        class="form-select" id="loaiBangGia">
+                    <option ng-repeat="item in priceTypes" ng-value="{{item.value}}">{{item.key}}</option>
+                </select>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label class="form-label" for="trangThai">Trạng thái</label>
+                <select ng-model="status_search"
+                        class="form-select" id="trangThai">
+                    <option ng-repeat="item in statuss" ng-value="{{item.value}}">{{item.key}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Table main -->
+    <div class="table-container">
+        <p>Tổng số bản ghi: </p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>
+                        <input type="checkbox" ng-click="selectAll_banggia($event)" ng-checked="isAllSelected_banggia()">
+                    </th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                    <th>Mã bảng giá</th>
+                    <th>Tên bảng giá</th>
+                    <th>Loại bán</th>
+                    <th>Loại bảng giá</th>
+                    <th>Trạng thái</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in bang_giaList_display"
+                    ng-class="{'selected-row': isSelected_banggia(item)}"
+                    ng-click="toggleSelection_banggia(item)">
+                    <td>{{ $index + 1 }}</td>
+                    <td>
+                        <input type="checkbox" ng-model="selectedItems_banggia[item.code]" ng-click="updateSelection_banggia($event, item)">
+                    </td>
+
+                    <td>
+                        <button ng-click="$event.stopPropagation(); handleEdit(item)" class="btn p-0">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button ng-click="$event.stopPropagation(); handleDelete_bangGiaItem(item, 0)"
+                                class="btn p-0 text-danger">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </td>
+                    <td>{{ item.code }}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ getSaleType(item) }}</td>
+                    <td>{{ getPriceType(item) }}</td>
+                    <td>{{ getStatus(item) }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--modal cha-->
+
+    <div class="modal" ng-show="isModal_parent">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center">{{isEdit_parent ? "Sửa bảng giá" : "Thêm bảng giá"}}</h3>
+                    <button ng-click="closeModal('parent')" type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="maBangGia" class="form-label">Mã bảng giá <span class="text-danger">*</span></label>
+                                <input ng-blur="validate_empty('code', bang_giaItem.code); validate_format('code', bang_giaItem.code)"
+                                       ng-change="validate_empty('code', bang_giaItem.code); validate_format('code', bang_giaItem.code)"
+                                       ng-model="bang_giaItem.code"
+                                       type="text" class="form-control" id="maBangGia">
+                                <span class="error" ng-show="errors.code">{{ errors.code }}</span>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="tenBangGia" class="form-label">Tên bảng giá <span class="text-danger">*</span></label>
+                                <input ng-model="bang_giaItem.name"
+                                       ng-blur="validate_empty('name', bang_giaItem.name)"
+                                       ng-change="validate_empty('name', bang_giaItem.name)"
+                                       type="text" class="form-control" id="tenBangGia">
+                                <span class="error" ng-show="errors.name">{{ errors.name }}</span>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="loaiBan" class="form-label">Loại bán <span class="text-danger">*</span></label>
+                                <select ng-model="bang_giaItem.saleType"
+                                        class="form-control" id="loaiBan">
+                                    <option ng-repeat="item in saleTypes | filter: {value: '!0'}"
+                                            ng-value="{{item.value}}">
+                                        {{item.key}}
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="loaiBangGia" class="form-label">Loại bảng giá <span class="text-danger">*</span></label>
+                                <select ng-model="bang_giaItem.priceType"
+                                        class="form-control" id="loaiBangGia">
+                                    <option ng-repeat="item in priceTypes | filter: {value: '!0'}"
+                                            ng-value="{{item.value}}">
+                                        {{item.key}}
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="trangThai" class="form-label">Trạng thái <span class="text-danger">*</span></label>
+                                <select ng-model="bang_giaItem.status"
+                                        class="form-control" id="trangThai">
+                                    <option ng-repeat="item in statuss | filter: {value: '!0'}"
+                                            ng-value="{{item.value}}">
+                                        {{item.key}}
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <button ng-click="handleAdd_vt()" class="btn btn-primary">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </th>
+                                    <th>Sửa</th>
+                                    <th>Xóa</th>
+                                    <th>Mã vật tư</th>
+                                    <th>Tên vật tư</th>
+                                    <th>Loại áp dụng</th>
+                                    <th>Nhóm khách</th>
+                                    <th>Mã khách</th>
+                                    <th>Từ ngày</th>
+                                    <th>Đến ngày</th>
+                                    <th ng-show="bang_giaItem.priceType==3">Giờ bđ</th>
+                                    <th ng-show="bang_giaItem.priceType==3">Giờ kt</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá trước VAT</th>
+                                    <th>Mã thuế</th>
+                                    <th>Thuế suất</th>
+                                    <th>Giá sau VAT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="item in vattu_list_display">
+                                    <td>{{$index+1}}</td>
+                                    <td ng-click="openModal('edit', 'child'); fillData_vt(item)">
+                                        <i class="fas fa-pen text-primary"></i>
+                                    </td>
+                                    <td ng-click="handleDelete_vt(item)">
+                                        <i class="fas fa-trash text-danger"></i>
+                                    </td>
+                                    <td>{{item.MaterialCode}}</td>
+                                    <td>{{item.MaterialName}}</td>
+                                    <td>{{getApplicationType(item.ApplicationType)}}</td>
+                                    <td>
+                                        {{item.ApplicationType==1 ? '' : item.CustomerGroup}}
+                                    </td>
+                                    <td>
+                                        {{item.ApplicationType==2 ? '' : item.CustomerCode}}
+                                    </td>
+                                    <td>{{item.StartDate | date: 'dd/MM/yyyy'}}</td>
+                                    <td>{{item.EndDate | date: 'dd/MM/yyyy'}}</td>
+                                    <td ng-show="bang_giaItem.priceType==3">{{item.StartTime | date:'HH:mm' }}</td>
+                                    <td ng-show="bang_giaItem.priceType==3">{{item.EndTime | date:'HH:mm'}}</td>
+                                    <td>{{item.MinQuantity}}</td>
+                                    <td>{{item.PriceBeforeVAT | number:2}}</td>
+                                    <td>{{item.TaxCode}}</td>
+                                    <td>{{item.TaxRate | number: 2}}</td>
+                                    <td>{{item.PriceAfterVAT | number : 2}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button ng-show="!isEdit_parent" ng-click="handleAdd('parent', 1)" type="button" class="btn btn-primary">Lưu</button>
+                    <button ng-show="isEdit_parent" ng-click="edit_banggia()" type="button" class="btn btn-primary">Lưu_edit</button>
+                    <button ng-click="handleAdd('parent', 2)" ng-disabled="isEdit_parent" type="button" class="btn btn-secondary">Lưu và Copy</button>
+                    <button ng-click="closeModal('parent')" type="button" class="btn btn-warning">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--model con-->
+    <div class="modal child-modal" ng-show="isModal_child" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{{isEdit_child ? "Sửa vật tư" : "Thêm vật tư"}}</h5>
+                    <button ng-click="closeModal('child')" type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="maVatTu" class="form-label">Mã vật tư <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.MaterialCode"
+                                       ng-blur="validate_empty('MaterialCode', vattu_item.MaterialCode);
+                                        validate_format('MaterialCode', vattu_item.MaterialCode)"
+                                       ng-change="validate_empty('MaterialCode', vattu_item.MaterialCode);
+                                            validate_format('MaterialCode', vattu_item.MaterialCode)"
+                                       type="text" class="form-control" id="maVatTu">
+                                <span class="error" ng-show="errors.MaterialCode">{{ errors.MaterialCode }}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="tenVatTu" class="form-label">Tên vật tư <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.MaterialName"
+                                       ng-blur="validate_empty('MaterialName', vattu_item.MaterialName)"
+                                       ng-change="validate_empty('MaterialName', vattu_item.MaterialName)"
+                                       type="text" class="form-control" id="tenVatTu">
+                                <span class="error" ng-show="errors.MaterialName">{{ errors.MaterialName }}</span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="loaiApDung" class="form-label">Loại áp dụng <span class="text-danger">*</span></label>
+                                <select ng-model="vattu_item.ApplicationType" class="form-select" id="loaiApDung">
+                                    <option ng-repeat="item in ApplicationTypes" ng-value="item.value">
+                                        {{item.key}}
+                                    </option>
+                                </select>
+                            </div>
+                            <div ng-hide="vattu_item.ApplicationType == 2" class="col-md-6">
+                                <label for="maKhachHang" class="form-label">Mã khách hàng <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.CustomerCode"
+                                       ng-blur="validate_empty('CustomerCode', vattu_item.CustomerCode);
+                                        validate_format('CustomerCode', vattu_item.CustomerCode)"
+                                       ng-change="validate_empty('CustomerCode', vattu_item.CustomerCode);
+                                            validate_format('CustomerCode', vattu_item.CustomerCode)"
+                                       type="text" class="form-control">
+                                <span class="error" ng-show="errors.CustomerCode">{{ errors.CustomerCode }}</span>
+                            </div>
+                            <div ng-hide="vattu_item.ApplicationType == 1" class="col-md-6">
+                                <label for="" class="form-label">Nhóm khách hàng <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.CustomerGroup"
+                                       ng-blur="validate_empty('CustomerGroup', vattu_item.CustomerGroup);
+                                        validate_format('CustomerGroup', vattu_item.CustomerGroup)"
+                                       ng-change="validate_empty('CustomerGroup', vattu_item.CustomerGroup);
+                                            validate_format('CustomerGroup', vattu_item.CustomerGroup)"
+                                       type="text" class="form-control" id="nhomKhachHang">
+                                <span class="error" ng-show="errors.CustomerGroup">{{ errors.CustomerGroup }}</span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="tuNgay" class="form-label">Từ ngày <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.StartDate"
+                                       ng-model-options="{timezone: 'UTC'}"
+                                       ng-blur="validate_empty('StartDate', vattu_item.StartDate);"
+                                       ng-change="validate_empty('StartDate', vattu_item.StartDate);"
+                                       type="date" class="form-control" id="tuNgay">
+                                <span class="error" ng-show="errors.StartDate">{{ errors.StartDate }}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="denNgay" class="form-label">Đến ngày <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.EndDate"
+                                       ng-model-options="{timezone: 'UTC'}"
+                                       ng-blur="validate_empty('EndDate', vattu_item.EndDate);"
+                                       ng-change="validate_empty('EndDate', vattu_item.EndDate);"
+                                       type="date" class="form-control" id="denNgay">
+                                <span class="error" ng-show="errors.EndDate">{{ errors.EndDate }}</span>
+                            </div>
+                        </div>
+                        <div ng-show="bang_giaItem.priceType==3" class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Giờ bắt đầu <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.StartTime"
+                                       ng-model-options="{timezone: 'UTC'}"
+                                       ng-blur="validate_empty('StartTime', vattu_item.StartTime)"
+                                       ng-change="validate_empty('StartTime', vattu_item.StartTime)"
+                                       type="time" class="form-control">
+                                <span class="error" ng-show="errors.StartTime">{{ errors.StartTime }}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Giờ kết thúc <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.EndTime"
+                                       ng-model-options="{timezone: 'UTC'}"
+                                       ng-blur="validate_empty('EndTime', vattu_item.EndTime)"
+                                       ng-change="validate_empty('EndTime', vattu_item.EndTime)"
+                                       type="time" class="form-control">
+                                <span class="error" ng-show="errors.EndTime">{{ errors.EndTime }}</span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="soLuongMin" class="form-label">Số lượng min <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.MinQuantity"
+                                       ng-blur="validate_empty('MinQuantity', vattu_item.MinQuantity)"
+                                       ng-change="validate_empty('MinQuantity', vattu_item.MinQuantity)"
+                                       type="number" class="form-control" id="soLuongMin" value="1">
+                                <span class="error" ng-show="errors.MinQuantity">{{ errors.MinQuantity }}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="gia" class="form-label">Giá <span class="text-danger">*</span></label>
+                                <input ng-model="vattu_item.PriceBeforeVAT"
+                                       ng-blur="validate_empty('PriceBeforeVAT', vattu_item.PriceBeforeVAT)"
+                                       ng-change="validate_empty('PriceBeforeVAT', vattu_item.PriceBeforeVAT)"
+                                       type="number" class="form-control" id="gia" value="0">
+                                <span class="error" ng-show="errors.PriceBeforeVAT">{{ errors.PriceBeforeVAT }}</span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="maThue" class="form-label">Mã thuế</label>
+                                <select ng-change="calVAT()" ng-model="vattu_item.TaxCode" class="form-select" id="maThue">
+                                    <option ng-repeat="item in TaxCodes" ng-value="item.value">{{item.key}}</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="giaSauVAT" class="form-label">Giá sau VAT</label>
+                                <input ng-model="vattu_item.PriceAfterVAT" type="number" class="form-control" id="giaSauVAT" readonly>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button ng-show="!isEdit_child"
+                            ng-click="add_vt_Display(1)"
+                            type="button" class="btn btn-primary">
+                        Lưu
+                    </button>
+                    <button ng-show="isEdit_child"
+                            ng-click="Edit_vt()"
+                            type="button" class="btn btn-primary">
+                        Lưu(edit)
+                    </button>
+                    <button ng-click="add_vt_Display()"
+                            ng-disabled="isEdit_child" type="button" class="btn btn-secondary">
+                        Lưu và Thêm
+                    </button>
+                    <button ng-click="closeModal('child')" type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/canhnv")
+</body>
+</html>

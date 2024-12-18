@@ -1,0 +1,151 @@
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\WebClient.dll.config
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\WebClient.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\WebClient.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.Http.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.Razor.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.Deployment.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.Razor.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Npgsql.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Dapper.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.Razor.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.Deployment.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.WebPages.Razor.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Dapper.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Dapper.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\obj\Debug\WebClient.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\obj\Debug\WebClient.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\WebGrease.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\WebClient\bin\System.Web.Mvc.xml
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.dll.config
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\API.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\WebGrease.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Npgsql.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Dapper.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\API.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\API.dll.config
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Dapper.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Dapper.xml
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.csproj.CoreCompileInputs.cache
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.csproj.CopyComplete
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\Microsoft.Web.Infrastructure.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.WebPages.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.dll.config
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\WebClient.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\API.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\WebGrease.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Npgsql.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Dapper.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.WebPages.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\API.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\obj\Debug\WebClient.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.Http.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.Http.xml
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\WebClient\bin\System.Web.Http.WebHost.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\WebClient.dll.config
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\WebClient.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\WebClient.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Web.Http.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\WebGrease.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Web.WebPages.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\API.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Web.Http.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\bin\System.Web.Http.WebHost.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\obj\Debug\WebClient.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\WebClient\obj\Debug\WebClient.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\WebClient.dll.config
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\WebClient.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\WebClient.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Web.Http.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\WebGrease.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Web.WebPages.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\API.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Web.Http.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\bin\System.Web.Http.WebHost.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\obj\Debug\WebClient.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\WebClient\obj\Debug\WebClient.pdb
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\WebClient.dll.config
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\WebClient.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\WebClient.pdb
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\API.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Web.Http.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\WebGrease.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Web.WebPages.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\API.pdb
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Web.Http.xml
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\obj\Debug\WebClient.dll
+C:\Users\DELL\Documents\New folder\TAILIEU\WEB API\WebDemo\WebClient\obj\Debug\WebClient.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\WebClient.dll.config
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\WebClient.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\WebClient.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Web.Http.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\WebGrease.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Web.Http.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\obj\Debug\WebClient.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\obj\Debug\WebClient.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\API.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\API.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\WebClient\bin\System.Web.WebPages.dll

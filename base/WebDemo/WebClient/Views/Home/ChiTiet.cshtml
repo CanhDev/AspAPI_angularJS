@@ -1,0 +1,68 @@
+﻿<div ng-controller="ChiTietController">
+    <br />
+    <form class="form-horizontal" role="form" name="adduserform" style="margin-left:450px">
+        <div class="form-group">
+
+            @*<itg-label lbl-title="ID" lbl-css="col-sm-5 control-label" txt-required=true></itg-label>*@
+            <itg-label lbl-css="control-label"
+                       lbl-text="ID"
+                       lbl-title="Name"
+                       lbl-required="true"></itg-label>
+            <div class="col-sm-5">
+                <itg-text type="text" txt-model="kh.ma_nv"
+                          ng-disabled="false"
+                          txt-css="form-control" id="id" txt-placeholder="default ID" txt-title="default ID">
+                </itg-text>
+            </div>
+        </div>
+        <div class="form-group">
+            @*<itg-label lbl-title="Name" lbl-css=" col-sm-2 control-label" txt-required=true></itg-label>*@
+            <itg-label lbl-css="control-label"
+                       lbl-text="Name"
+                       lbl-title="Name"
+                       lbl-required="true"></itg-label>
+
+            <div class="col-sm-5">
+                <itg-text type="text" txt-model="kh.ten_nv" txt-required=true
+                          txt-css="form-control" txt-id="name" txt-placeholder="Your Name" required txt-title="Enter your Name"></itg-text>
+            </div>
+        </div>
+        <div class="form-group">
+            <itg-label lbl-css="control-label"
+                       lbl-text="Tuổi"
+                       lbl-title="Name"
+                       lbl-required="true"></itg-label>
+            <div class="col-sm-5">
+                <itg-number num-model="kh.tuoi" num-required=true num-min="18" num-max="100" num-css="form-control" txt-title="Enter your Age"></itg-number>
+            </div>
+        </div>
+        <div class="form-group">
+            <itg-label lbl-css="control-label"
+                       lbl-text="Địa chỉ"
+                       lbl-title="Name"
+                       lbl-required="true"></itg-label>
+            <div class="col-sm-5">
+                <itg-text type="text" txt-model="kh.diachi" txt-required=true
+                          txt-css="form-control" txt-placeholder="Your Address" required title="Enter your Address"></itg-text>
+            </div>
+        </div>
+        <div class="form-group">
+            <itg-label lbl-css="control-label"
+                       lbl-text="Số điện thoại"
+                       lbl-title="Name"
+                       lbl-required="true"></itg-label>
+            <div class="col-sm-5">
+                <itg-text type="text" txt-model="kh.sdt" txt-required=true
+                          txt-css="form-control" txt-placeholder="Your Address" required title="Enter your Phone"></itg-text>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-9">
+                <button type="button" class="btn btn-primary" ng-click="Save(kh)">Save</button>
+                @*<button type="button" ng-if="add_yn" class="btn btn-primary">Save & Add </button>*@
+                <input type="button" value="Cancel" data-ng-click="Cancel_Modal()" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+</div>

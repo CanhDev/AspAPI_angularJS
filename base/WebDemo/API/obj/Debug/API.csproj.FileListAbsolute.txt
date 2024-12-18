@@ -1,0 +1,117 @@
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\API.dll.config
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Dapper.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Npgsql.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Net.Http.Formatting.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Web.Http.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Web.Http.WebHost.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Dapper.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Dapper.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Net.Http.Formatting.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Web.Http.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\bin\System.Web.Http.WebHost.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\obj\Debug\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\WebApplication2\obj\Debug\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\API.dll.config
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Dapper.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Newtonsoft.Json.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Npgsql.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\System.Net.Http.Formatting.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\System.Web.Http.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\System.Web.Http.WebHost.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Dapper.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Dapper.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\bin\Newtonsoft.Json.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\obj\Debug\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\TestDemo\Solution_WebAPIDemo\API\obj\Debug\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\API.dll.config
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\API.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Dapper.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Newtonsoft.Json.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Npgsql.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\System.Net.Http.Formatting.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\System.Web.Http.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\System.Web.Http.WebHost.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Dapper.pdb
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Dapper.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\bin\Newtonsoft.Json.xml
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\obj\Debug\API.dll
+C:\Users\toantq.ITG\Documents\Visual Studio 2013\Projects\WebDemo\API\obj\Debug\API.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\obj\Debug\API.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\obj\Debug\API.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\API.dll.config
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\API.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\API.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\Newtonsoft.Json.dll
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\Dapper.pdb
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\Dapper.xml
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\obj\Debug\API.csproj.CopyComplete
+H:\Thuchanh_itg\WebDemo_27022019\WebDemo\API\bin\Npgsql.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\API.dll.config
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\API.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\API.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\Npgsql.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\obj\Debug\API.dll
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\obj\Debug\API.pdb
+E:\ITGUSERS\HUENK\STUDY\WebDemo_27022019\WebDemo\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\API.dll.config
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\API.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Dapper.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Npgsql.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Web.Http.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Web.Http.WebHost.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Dapper.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Dapper.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\Newtonsoft.Json.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Web.Http.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\bin\System.Web.Http.WebHost.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\obj\Debug\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\ZHue\WebDemo\API\obj\Debug\API.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\API.dll.config
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\API.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\Dapper.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\Newtonsoft.Json.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Net.Http.Formatting.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Web.Http.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Web.Http.WebHost.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\Dapper.pdb
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\Dapper.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\Newtonsoft.Json.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Net.Http.Formatting.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Web.Http.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\bin\System.Web.Http.WebHost.xml
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\obj\Debug\API.dll
+E:\ITGUSERS\HUENK\PROJECTS\STUDY\LTW092021\Lesson\Web API\WebDemo\API\obj\Debug\API.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\API.dll.config
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\API.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\API.pdb
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Web.Http.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Web.Http.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\obj\Debug\API.dll
+C:\Users\DELL\Workplace\8_ITG\mine\3_WebApi\base\WebDemo\API\obj\Debug\API.pdb

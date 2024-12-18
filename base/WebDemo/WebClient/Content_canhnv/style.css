@@ -1,0 +1,260 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+}
+.search-bar {
+    margin: 10px 0;
+}
+.table-container {
+    margin: 10px;
+}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+.action-icons i {
+    margin: 0 5px;
+    cursor: pointer;
+}
+.input-group-btn {
+    margin-left: 5px;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr {
+    transition: all linear 0.2s;
+}
+.table tbody tr:hover {
+    background-color: #aab2b8;
+    cursor: pointer;
+}
+
+.mt{
+    margin: 6px 0;
+}
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.truncate {
+    max-width: 150px; /* Chiều rộng tối đa */
+    white-space: nowrap; /* Không xuống dòng */
+    overflow: hidden; /* Ẩn nội dung thừa */
+    text-overflow: ellipsis; /* Hiển thị dấu "..." nếu nội dung vượt quá */
+    cursor: pointer; /* Con trỏ chỉ tay để gợi ý */
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+  }        
+.isSelected{
+    background-color: #aab2b8;
+}
+.mt-5{
+    margin: 15px 0;
+}
+/* Căn chỉnh hàng tìm kiếm */
+.search-bar {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.search-bar .action-icons .btn {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.input-group {
+   margin: 15px;
+}
+
+.input-group .form-control {
+    height: 40px;
+}
+
+.input-group .btn {
+    height: 40px;
+}
+/* Vùng bộ lọc mặc định */
+.filter-section.collapsible {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    padding: 0 15px; 
+}
+
+/* Khi hiển thị (ng-class thêm 'expanded') */
+.filter-section.collapsible.expanded {
+    max-height: 500px; 
+    padding: 15px 15px; 
+}
+.selected-row {
+    background-color: #aab2b8 !important; /* Light gray for selected rows */
+}
+
+.modal {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1050;
+    overflow: auto; 
+}
+
+.modal-dialog {
+    margin: 2% auto;
+    width: 90%;
+    max-height: 90%; 
+    overflow-y: auto; 
+    box-sizing: border-box; 
+}
+
+/* Popup Con */
+.child-modal {
+    z-index: 1060; /* Popup con phải có z-index cao hơn popup cha */
+    overflow-y: auto;
+}
+.child-modal .modal-dialog{
+    width: 80%;
+}
+/* Modal Content */
+.child-modal .modal-content {
+    padding: 20px;
+}
+
+/* Modal Header */
+.child-modal .modal-header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.child-modal .modal-title {
+    color: #007bff; /* Màu xanh giống nút btn-primary */
+    font-size: 20px;
+}
+
+/* Close Button */
+.child-modal .btn-close {
+    font-size: 1.5em;
+    margin-top: -10px;
+    padding: 0;
+}
+
+/* Modal Body */
+.child-modal .modal-body {
+    padding: 20px;
+}
+
+/* Footer for child modal */
+.child-modal .modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Buttons for child modal */
+.child-modal .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+/* Modal Content */
+.modal-content {
+    padding: 20px;
+}
+
+/* Modal Header */
+.modal-header {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+/* Modal Title */
+.modal-title {
+    color: #007bff; /* Màu xanh như màu btn-primary */
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Close button in the header */
+.modal-header .close {
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 20px;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+/* Form Inputs */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+.modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+/* Buttons in Footer */
+.modal-footer .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+  }
+
